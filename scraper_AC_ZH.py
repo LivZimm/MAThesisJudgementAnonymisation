@@ -1,9 +1,8 @@
-# file: C:\Users\Livia\Dropbox\hsg_dropbox\hsg_notizen_master_sem3\hsg_sem3_MA\97_Python\Python_Alle Urteile\Verwaltungsgericht_scraper\vg_debug_scraper.py
 r"""
 VG Zürich scraper for query: "Baurekursgericht" with robust resume by clicking pagination.
 Usage:
-  python .\vg_debug_scraper.py --from-page 74
-  python .\vg_debug_scraper.py --from-page 74 --from-link 3 --headless
+  python .\scraper_AC_ZH.py --from-page 74
+  python .\scraper_AC_ZH.py --from-page 74 --from-link 3 --headless
 """
 
 import argparse
@@ -386,3 +385,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
