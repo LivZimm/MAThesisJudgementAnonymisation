@@ -1,4 +1,4 @@
-# file: bger_zuerich_scraper.py
+# file: scraper_FSC.py
 """
 Scrape all judgments for query "Zürich" on the Swiss Federal Supreme Court (BGer) site
 in one-year increments starting 2000. Handles pagination via "page=N" (Vorwärts).
@@ -7,9 +7,9 @@ Outputs:
   - ./bger_out/metadata.csv (URL, filename, year, page, title)
   - ./bger_out/manifest.json (saved URLs for dedupe)
 Usage:
-  python bger_zuerich_scraper.py
+  python scraper_FSC.py
   # optional:
-  python bger_zuerich_scraper.py --start-year 2000 --end-year 2025 --delay 0.8
+  python scraper_FSC.py --start-year 2000 --end-year 2025 --delay 0.8
 """
 
 from __future__ import annotations
@@ -263,3 +263,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
