@@ -579,8 +579,8 @@ class JudgmentAnonymizationAnalyzer:
 # =========================
 
 if __name__ == "__main__":
-    INPUT_PATH = "/Users/LZN/Desktop/LIVIA/260218_China/hsg_sem3_MA/97_Python/Python_Analysing_Judgements/260414_judgments_linked_addresses_joined_for_GPT_BAC_ZH_text_replaced_input.xlsx"
-    OUTPUT_PATH = "/Users/LZN/Desktop/LIVIA/260218_China/hsg_sem3_MA/97_Python/Python_Analysing_Judgements/260415_judgments_linked_addresses_joined_for_GPT_BAC_ZH_text_replaced_output.xlsx"
+    INPUT_PATH = "X.xlsx"
+    OUTPUT_PATH = "Y.xlsx"
 
     df = pd.read_excel(INPUT_PATH)
 
