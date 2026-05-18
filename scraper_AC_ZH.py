@@ -42,7 +42,7 @@ SEARCH_URL = (
 QUERY = "Baurekursgericht"
 MAX_RESULTS_EXPECTED = 1396
 
-BASE_DIR = Path(r"C:\Users\Livia\Dropbox\hsg_dropbox\hsg_notizen_master_sem3\hsg_sem3_MA\97_Python\Python_Alle Urteile\Verwaltungsgericht_scraper")
+BASE_DIR = Path(r"X")
 OUT_DIR = BASE_DIR / "out"
 DEBUG_DIR = BASE_DIR / "debug"
 MANIFEST_PATH = BASE_DIR / "manifest.json"
